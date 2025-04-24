@@ -1,0 +1,96 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+background : linear-gradient( #b8dcff, #0062c4);
+background-repeat: no-repeat;
+min-height: 100vh;
+}
+
+/* Styling the main within the body  holding the form and the h1 */
+.main {
+text-align: center;
+font-weight: bold;
+}
+
+h1 {
+color: #2c3e50;
+}
+
+/* Hapa Kuna Form Styling */
+form {
+padding: 40px;
+display: flex;
+gap: 10px;
+flex-direction: column;
+margin: 20px auto;
+width: 60%;
+box-shadow: 3px 3px 5px;
+border-radius: 18px;
+background-color: #fff;
+}
+
+/* Common styles for the input and the button */
+input, button {
+padding: 10px;
+margin: 5px 0;
+outline: none;
+}
+
+input{
+border: none;
+border-bottom: 2px solid black;
+}
+
+button {
+border: 1px solid #ccc;
+border-radius: 8px;
+background-color: #60caff;
+}
+
+/* hover button features */
+button:hover {
+background-color: #28b5fb;
+}
+
+/* Styles za screen dogo*/
+@media (max-width: 768px) {
+.main{
+font-size: 2.5rem;
+}
+
+input, button {
+font-size: 2rem;
+font-weight: bold;
+}
+
+input{
+padding: 30px;
+border-radius: 8px;
+border: 2px solid black;
+}
+
+button {
+  padding: 30px;
+}
+
+form {
+  width: 80%;
+  gap: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
