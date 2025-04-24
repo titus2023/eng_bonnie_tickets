@@ -8,10 +8,16 @@
   <body>
    <div class="main">
     <h1>Buy a Ticket</h1>
-    <form action="/buy" method="post">
-      <label>Your Name:</label>
-      <input type="text" name="buyer_name" placeholder="Enter Your Name Here!" required>
-      <button type="submit">Submit Name</button>
+    
+    <form action="/book" method="POST">
+      <!-- <input type="hidden" name="event" value="Nairobi Food & Drinks Fair"> -->
+       <!-- <input type="hidden" name="event" value="Wildlife Photo Exhibition"> -->
+        <!-- <input type="hidden" name="event" value="Nairobi Music Festival"> -->
+
+      
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <button type="submit">Book Now</button>
     </form>
 
     <div class="card-container">
@@ -47,6 +53,7 @@
         </div>
         <a href="#" class="btn">BUY TICKETS</a>
       </div>
+       
     </div>
    </div>
   </body>
